@@ -1,0 +1,116 @@
+body{
+    margin: auto;
+    background-color: #02353C;
+}
+.navbar{
+    background-color: #0124297c;
+}
+#div1{
+    background-color: #03444d;
+}
+.grt{
+    font-size: 40 !important;
+    color: yellow;
+    text-align: center;
+    line-height: 0.9;
+}
+#profile{
+    height: 300px;
+    margin: 10px;
+}
+#aboutme{
+    display: flex;
+}
+#intro{
+    color: white;
+    margin: 5px 20px 20px 20px;
+}
+.sub-title{
+    color: yellow;
+    text-align: center;
+    font-weight: 500;
+}
+#div2{
+    background-color:  #02414b;
+    
+}
+#divskill > img{
+    height: 80px;
+    width: 90px;
+    border-radius: 5%;
+    margin: 5px;
+}
+#divskill{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 450px){
+    .grt{
+        font-size: 30 !important;
+    }
+    #divskill{
+        display: grid;
+    }
+    #aboutme{
+        display: block;
+    }
+    #aboutme > div{
+        display: flex;
+        justify-content: center;
+    }
+}
+#div3{
+    background-color: #024b57;
+}
+#div3 > ul{
+    color: white;
+    font-size: 17;
+}
+#info{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.work{
+    display: flex;
+    justify-content: center;
+}
+.map{
+    float: left;
+}
+#location > iframe{
+    width: 95%;
+    margin: 10px;
+}
+footer{
+    display: block;
+    background-color: #0124297c;
+    height: 200px;
+    
+}
+#logo{
+    height: 60px;
+}
+#linkLogos{
+    float: right;
+    margin: 5px 20px 0 0;
+}
+#contact{
+    margin: 20px 0 0 20px;
+    float: left;
+    color: white;
+}
+@media screen and (max-width:600px){
+    footer{
+        display: grid;
+    }
+    #contact{
+        display: flex;
+        justify-content: center;
+    }
+    #linkLOgos{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
